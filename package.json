@@ -1,0 +1,28 @@
+{
+  "name": "project-blockchain",
+  "version": "1.0.0",
+  "description": "Mini project",
+  "main": "index.js",
+  "scripts": {
+    "test": "git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushPanday1/project-blockchain.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Ayush panday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyushPanday1/project-blockchain/issues"
+  },
+  "homepage": "https://github.com/AyushPanday1/project-blockchain#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
