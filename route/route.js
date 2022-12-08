@@ -11,7 +11,7 @@ router.get('/trial-api' , function(a,b){
 
 
 //API RELATED TO PROJECT.
-router.get('/assets' , controller.cryptocoin);
+router.get('/coinAssets' , controller.cryptocoin);
 
 router.all('/*', function(req,res){
     return res.status(500).send({status:false, message:"Provided route url is wrong"})
